@@ -95,7 +95,7 @@ def run_golem_example(example_main, log_file=None):
             f"See {handbook_url} on how to initialize payment accounts for a requestor node."
             f"{TEXT_COLOR_DEFAULT}"
         )
-    except KeyboardInterrupt:
+    except (asyncio.CancelledError, KeyboardInterrupt):
         print(
             f"{TEXT_COLOR_YELLOW}"
             "Shutting down gracefully, please wait a short while "
