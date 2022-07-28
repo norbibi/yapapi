@@ -152,7 +152,7 @@ def _parse_result(potfile_line: str) -> Optional[str]:
 
 async def main(args):
     package = await vm.repo(
-		image_hash="c36297af9f7ceb8deb14e117bd266fc0412380aff02c59ef5c60cfb9",
+        image_hash="c36297af9f7ceb8deb14e117bd266fc0412380aff02c59ef5c60cfb9",
         min_mem_gib=4,
         min_cpu_threads=4,
         min_storage_gib=4,
