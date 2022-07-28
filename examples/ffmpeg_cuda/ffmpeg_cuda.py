@@ -35,7 +35,7 @@ class FfmpegService(Service):
     @staticmethod
     async def get_payload():
         return await vm.repo(
-		image_hash="0ffe07fbcb1064631d4394dcdcb1662056ed36d98f9efffa44484d99",
+            image_hash="0ffe07fbcb1064631d4394dcdcb1662056ed36d98f9efffa44484d99",
             min_mem_gib=8,
             min_cpu_threads=8,
             min_storage_gib=8,

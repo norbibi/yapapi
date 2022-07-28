@@ -28,7 +28,7 @@ from utils import (
 
 async def main(subnet_tag, min_cpu_threads, cycles_device, scene, payment_driver=None, payment_network=None, show_usage=False):
     package = await vm.repo(
-		image_hash="aee4da1c8da0d05aba6aaa7a7bbdc49a69f5210b7fa2b42900ad7db5",
+        image_hash="aee4da1c8da0d05aba6aaa7a7bbdc49a69f5210b7fa2b42900ad7db5",
         min_mem_gib=4,
         min_storage_gib=4,
         min_cpu_threads=4,

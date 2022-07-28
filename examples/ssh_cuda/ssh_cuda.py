@@ -33,7 +33,7 @@ class SshService(Service):
     @staticmethod
     async def get_payload():
         return await vm.repo(
-		image_hash="ece0cf8e7815f079b7886187c06136cbb84c744dfc736d88bfab4121",
+            image_hash="ece0cf8e7815f079b7886187c06136cbb84c744dfc736d88bfab4121",
             min_mem_gib=8,
             min_storage_gib=8,
             capabilities=[vm.VM_CAPS_VPN, "cuda, GA102 [GeForce RTX 3090]"],

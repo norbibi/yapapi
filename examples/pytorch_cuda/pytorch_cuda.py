@@ -38,7 +38,7 @@ class DdpService(Service):
     @staticmethod
     async def get_payload():
         return await vm.repo(
-		image_hash="59548268bddc33a22a7f0c2b28dad813c6375d3ec9f874185a0496ae",
+            image_hash="59548268bddc33a22a7f0c2b28dad813c6375d3ec9f874185a0496ae",
             min_mem_gib=4,
             min_cpu_threads=4,
             min_storage_gib=4,
