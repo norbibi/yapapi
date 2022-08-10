@@ -1,4 +1,4 @@
-FROM docker_golem_cuda_base:latest
+FROM maugnorbert/docker_golem_cuda_base:latest
 
 RUN apt-get update && apt-get install -y \
 	hashcat \
